@@ -1,4 +1,4 @@
-This project was bootstrapped with Create React App
+This project was bootstrapped with {Create React App}
 
 ## React fully responsive Todo Application
 
