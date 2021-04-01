@@ -6,7 +6,7 @@ COPY package*.json ./
 
 COPY . .
 
-RUN npm install
+RUN npm install --verbose
 
 EXPOSE 3000
 
