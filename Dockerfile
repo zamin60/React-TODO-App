@@ -2,12 +2,9 @@ FROM node
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
-
+COPY . .
 RUN npm config set registry http://registry.npmjs.org/
 RUN npm install --verbose
-
-COPY . .
 
 EXPOSE 3000
 
